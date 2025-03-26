@@ -2,6 +2,7 @@
 
 int NumeroCuadrado(int numero);
 void NumeroCuadrado2(int numero);
+void Invertir(int a, int b);
 
 
 
@@ -24,7 +25,7 @@ int main()
     printf("Contenido: %d\n",variable);
     printf("Direccion de memoria: %p\n",&variable);*/ 
 
-    
+
 
 
 
@@ -41,4 +42,10 @@ int NumeroCuadrado(int numero)
 void NumeroCuadrado2(int numero)
 {
     printf("El cuadrado de %d es: %d", numero, numero * numero);  
+}
+
+void Invertir(int a, int b) {
+    int temp = a;
+    a = b;
+    b = temp;
 }
