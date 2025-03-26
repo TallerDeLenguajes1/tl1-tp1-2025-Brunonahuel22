@@ -48,4 +48,18 @@ void Invertir(int a, int b) {
     int temp = a;
     a = b;
     b = temp;
+
+    printf("Valor de a: %d",a);
+    printf("Valor de b: %d",b);
+}
+
+void Orden(int *a,int *b){
+    int temp = 0;
+    if (*a >= *b)
+    {
+        temp = *a;
+        *a = *b;
+        *b = temp;
+    }
+    
 }
