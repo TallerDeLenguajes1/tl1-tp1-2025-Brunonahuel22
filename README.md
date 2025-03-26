@@ -24,3 +24,12 @@ _Si quieres ignorar archivos ejecutables (.exe) y otros archivos generados en la
 ### Ignorar archivos objeto generados por la compilación
 
 \*.o
+
+
+## Apartado g)
+
+- El resultado es el mismo ya que el puntero almacena la direccion de memoria que tiene la variable numero
+
+- En el punto 4 se obtiene la direccion de memoria pero ahora de la variable puntero
+
+- No es el mismo, ya que primero mostrabamos la direccion de la variable numero y el contenido al que apuntaba el puntero 'pnumero', la direcion del puntero es otra distinta a las anteriores
