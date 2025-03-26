@@ -3,6 +3,8 @@
 int NumeroCuadrado(int numero);
 void NumeroCuadrado2(int numero);
 
+
+
 int main()
 {
    /*   funcion 1
@@ -16,7 +18,15 @@ int main()
     /*  funcion 2
     NumeroCuadrado2(4);*/
 
+
+   /*int variable = 6;
+
+    printf("Contenido: %d\n",variable);
+    printf("Direccion de memoria: %p\n",&variable);*/ 
+
     
+
+
 
 
 
