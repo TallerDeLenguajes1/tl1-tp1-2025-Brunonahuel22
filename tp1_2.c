@@ -8,22 +8,24 @@ void Invertir(int a, int b);
 
 int main()
 {
-   /*   funcion 1
+    int x, y;
 
-    int numero;
-    printf("Ingrese un numero: ");
-    scanf("%d", &numero);
+   
+    printf("Ingrese el primer valor (x): ");
+    scanf("%d", &x);
+    printf("Ingrese el segundo valor (y): ");
+    scanf("%d", &y);
 
-    printf("El cuadrado de %d es: %d", numero, NumeroCuadrado(numero));*/
+   
+    printf("Cuadrado de %d: %d\n", x, NumeroCuadrado(x));
+    NumeroCuadrado2(y);
 
-    /*  funcion 2
-    NumeroCuadrado2(4);*/
+    
+    Invertir(x, y);
 
-
-   /*int variable = 6;
-
-    printf("Contenido: %d\n",variable);
-    printf("Direccion de memoria: %p\n",&variable);*/ 
+    
+    Orden(&x, &y);
+    printf("Valores ordenados: x = %d, y = %d\n", x, y);
 
 
 
